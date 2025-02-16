@@ -2,7 +2,7 @@
 title: 軽量化・最適化について
 description: Modpackにおける軽量化・最適化modについてまとめたページです
 published: true
-date: 2025-02-16T12:46:02.818Z
+date: 2025-02-16T12:50:10.134Z
 tags: 軽量化, 最適化, mod選択
 editor: markdown
 dateCreated: 2025-02-15T11:58:01.326Z
@@ -35,3 +35,8 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 ### 特定のModを最適化・軽量化するmod
 最適化・軽量化modの中には特定のmodの動作を軽量化する目的で開発されているものがあります。(例：Iris & Oculus Flywheel Compat、Ice and Fire Patcher、TerraBlender Fix)
 そのModを使用することで負荷を減らすことができます。
+# その他
+上記以外の軽量化手段を紹介します。
+## JVM設定
+起動構成のJVMを変えることでその構成に最適化する事ができます。
+ただし、Modpack側から勝手に変えることは難しいのでユーザーによる最適化になります。
