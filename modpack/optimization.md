@@ -2,7 +2,7 @@
 title: 軽量化・最適化について
 description: Modpackにおける軽量化・最適化modについてまとめたページです
 published: true
-date: 2025-02-16T12:50:10.134Z
+date: 2025-02-16T12:54:52.745Z
 tags: 軽量化, 最適化, mod選択
 editor: markdown
 dateCreated: 2025-02-15T11:58:01.326Z
@@ -40,3 +40,6 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 ## JVM設定
 起動構成のJVMを変えることでその構成に最適化する事ができます。
 ただし、Modpack側から勝手に変えることは難しいのでユーザーによる最適化になります。
+参考：https://github.com/Mukul1127/Minecraft-Java-Flags
+## Prismランチャーの使用
+一般的にCF appよりもPrismランチャーの方が動作が軽いです。これもまたユーザー側の最適化。
