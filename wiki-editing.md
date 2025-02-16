@@ -1,8 +1,8 @@
 ---
 title: Wikiの編集者へ
 description: 
-published: true
-date: 2025-02-08T10:24:48.435Z
+published: false
+date: 2025-02-16T04:06:57.991Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-08T02:52:31.926Z
