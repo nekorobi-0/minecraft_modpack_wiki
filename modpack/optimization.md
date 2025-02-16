@@ -2,7 +2,7 @@
 title: 軽量化・最適化について
 description: Modpackにおける軽量化・最適化modについてまとめたページです
 published: true
-date: 2025-02-16T12:01:48.206Z
+date: 2025-02-16T12:24:50.900Z
 tags: 軽量化, 最適化, mod選択
 editor: markdown
 dateCreated: 2025-02-15T11:58:01.326Z
@@ -11,11 +11,19 @@ dateCreated: 2025-02-15T11:58:01.326Z
 # 最適化・軽量化について
 Modを使用する構成では~~ただでさえ最適化がきちんとしていない~~負荷が膨らむことが問題になります。そのため負荷を最小限に抑えることが重要です。
 # 負荷を抑えるための設計
+　最適化・軽量化modに頼らずとも軽量化することは可能です。
+
+例えばスカイブロック系Modpackには地形生成・Mobの処理がないため、普通のModpackに比べて軽量になります。
+もちろん、この設計はModpackをスカイブロックにしろというわけではないです。ですが普通のModpackでも重い処理を分散させることで軽量化できます。
+
+「IncontrolなどのMob制御modを使い重いmobを湧きずらくする」、「Structurifyで生成の重い構造物を減らす」、「KubeJSやCraft Tweakerなどで負荷の高いアイテムの作成を難しくする」、など負荷を考えてModpackの改変を行うことで、ユーザーの不快な体験を減らすことができます。
+SparkやObservableなどの負荷計測Modを使用して環境の負荷を計測し、どの処理が重くなっているのかを確認してみてください。
+
 
 # 最適化・軽量化Mod
 ### 主要最適化・軽量化Modlist
-
-表1
+wip
 ### 特定のModを最適化・軽量化するmod
-
+最適化・軽量化modの中には特定のmodの動作を軽量化する目的で開発されているものがあります。(例：Iris & Oculus Flywheel Compat、Ice and Fire Patcher、TerraBlender Fix)
+そのModを使用することで負荷を減らすことができます。
 # Modの取捨選択
