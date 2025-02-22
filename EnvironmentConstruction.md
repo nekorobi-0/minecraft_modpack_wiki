@@ -2,7 +2,7 @@
 title: 環境構築
 description: 
 published: true
-date: 2025-02-22T12:23:08.562Z
+date: 2025-02-22T12:29:42.747Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-22T12:23:08.562Z
@@ -28,10 +28,16 @@ VScodeは拡張機能をインストールすることが可能であり、拡�
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 
+
 ## Probejsまわり
 まず、Probejsを入れます。Kubejs単体では縛りプレイです、あなたがド変態なドMなら...まぁうん、そういう性癖もありだと思いますよ。
 Minecraft内で`/probejs dump`を実行することでKubejsフォルダ配下にTypescriptによる型アノテーションが生成されます。
 そうすると、VScodeの予測とかが割と賢くなったり、関数の引数がわかったりします。
+
+## VScodeの開き方
+エクスプローラーを開いて、kubejsフォルダ内で右クリックをし、"Codeで開く"をクリックすることで開くとVScodeくんがいい感じに力を発揮してくれます。
+また、上のバーからFileを選択し、Open FolderでKubejsフォルダを開くのもあり
+
 
 ## だいたいおわり。
 これで最低限は書けるようになると思います。
