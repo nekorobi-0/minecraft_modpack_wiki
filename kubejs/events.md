@@ -2,7 +2,7 @@
 title: イベント
 description: 
 published: false
-date: 2025-02-23T14:41:34.664Z
+date: 2025-02-23T14:45:22.714Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-23T13:58:52.927Z
@@ -167,6 +167,7 @@ dateCreated: 2025-02-23T13:58:52.927Z
 `server_scripts`
 ### [ServerEvents.recipes](/kubejs/editingRecipe)
 `server_scripts`
+レシピの改変/追加時に使用します
 ### ServerEvents.recipeTypeRegistry
 `server_scripts`
 ### ServerEvents.specialRecipeSerializers
