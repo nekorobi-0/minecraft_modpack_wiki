@@ -2,7 +2,7 @@
 title: レシピの改変
 description: レシピの追加、編集及び削除を行います
 published: false
-date: 2025-02-10T12:44:22.341Z
+date: 2025-02-23T13:55:36.163Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-07T13:57:55.403Z
@@ -300,4 +300,19 @@ event.replaceOutput({type: "smelting"}, "gold_nugget", "gold_ingot")
 ```
 # 応用編
 ## ヘルパー関数
+決まった形式のレシピを複数登録するときに、
+そのレシピを登録する関数を定義することで簡単に登録できます。
+```js
+let multiSmelt = (output, input, includeBlasting) => {
+  event.smelting(output, input)
+  
+  if (includeBlasting) {
+    event.blasting(output, input)
+  }
+}
+
+multiSmelt('minecraft:blue_dye', '#forge:gems/lapis', true)
+multiSmelt('minecraft:black_dye', 'minecraft:ink_sac', true)
+multiSmelt('minecraft:white_dye', 'minecraft:bone_meal', false)
+```
 ## forEach
