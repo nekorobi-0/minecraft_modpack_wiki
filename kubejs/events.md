@@ -2,7 +2,7 @@
 title: イベント
 description: 
 published: false
-date: 2025-02-23T14:46:19.005Z
+date: 2025-02-23T14:47:23.509Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-23T13:58:52.927Z
@@ -187,3 +187,4 @@ dateCreated: 2025-02-23T13:58:52.927Z
 `sratrup_scripts`
 ### StartupEvets.registry
 `sratrup_scripts`
+アイテムやブロックの登録時に使用します。
