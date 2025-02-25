@@ -2,7 +2,7 @@
 title: Kubejs
 description: 現代の代表的なminecraft改変mod、kubejsについて学びます。
 published: true
-date: 2025-02-08T05:43:04.758Z
+date: 2025-02-25T12:58:16.922Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-02T02:56:30.735Z
@@ -17,6 +17,7 @@ Kubejsとは、サーバー/クライアントで動作するModであり、Java
 そこには、Kubejsスクリプトが配置される、
 `startup_scripts`,`server_scripts`,`client_scripts`
 ディレクトリが存在します。
+これらのディレクトリは、その名の通りいつ実行するか(ゲーム内か起動後か)、サーバー側かクライアント側かで使い分けられ、それぞれ対応している[イベント](/kubejs/events)が違います。
 
 ## Kubejsのスクリプトの種類について
 `startup_scripts`  
@@ -25,13 +26,13 @@ Kubejsとは、サーバー/クライアントで動作するModであり、Java
 　　既存のアイテム/ブロックの変更  
 　　Forgeのイベントリスナーの追加 
 
-`server_script`
+`server_scripts`
 「サーバーにのみ影響する」「[レシピを変更する](/ja/kubejs/editingRecipe)」「ブロックを破壊する」等がここに含まれます。
 例：アイテムのレシピの変更
 　　ドロップアイテムの変更
 　　ブロックなどを使用した時に発生するイベントの設定
 
-`client_script`
+`client_scripts`
 「テクスチャの変更」「ツールチップの変更」「ログの生成」等の描画関連かつサーバーに関係ない物がここに含まれます。
 例：JEIへ説明の追加、レシピを隠すなど。
 
