@@ -2,7 +2,7 @@
 title: イベント
 description: 
 published: false
-date: 2025-02-23T14:47:23.509Z
+date: 2025-02-25T12:59:15.922Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-23T13:58:52.927Z
