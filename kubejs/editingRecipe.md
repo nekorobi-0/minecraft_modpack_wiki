@@ -2,7 +2,7 @@
 title: レシピの改変
 description: レシピの追加、編集及び削除を行います
 published: false
-date: 2025-02-23T13:55:36.163Z
+date: 2025-02-28T12:14:47.139Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-07T13:57:55.403Z
@@ -316,3 +316,23 @@ multiSmelt('minecraft:black_dye', 'minecraft:ink_sac', true)
 multiSmelt('minecraft:white_dye', 'minecraft:bone_meal', false)
 ```
 ## forEach
+ヘルパー関数の引数を配列に入れて、ループ処理を使うことでより簡単に登録できます。
+```js
+let smeltResipes = [
+  ['minecraft:blue_dye', '#forge:gems/lapis', true],
+  ['minecraft:black_dye', 'minecraft:ink_sac', true],
+  ['minecraft:white_dye', 'minecraft:bone_meal', false]
+]
+
+let multiSmelt = (output, input, includeBlasting) => {
+  event.smelting(output, input)
+  
+  if (includeBlasting) {
+    event.blasting(output, input)
+  }
+}
+
+smeltResipes.forEach(resipe => {
+  multiSmelt(resipe[0], resipe[1], resipe[2])
+})
+```
