@@ -2,7 +2,7 @@
 title: Kubejs
 description: 現代の代表的なminecraft改変mod、kubejsについて学びます。
 published: true
-date: 2025-02-25T12:58:16.922Z
+date: 2025-02-25T12:58:18.281Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-02T02:56:30.735Z

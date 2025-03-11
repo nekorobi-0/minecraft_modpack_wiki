@@ -2,7 +2,7 @@
 title: 軽量化・最適化について
 description: Modpackにおける軽量化・最適化modについてまとめたページです
 published: true
-date: 2025-02-16T14:06:42.031Z
+date: 2025-02-16T14:06:43.484Z
 tags: 軽量化, 最適化, mod選択
 editor: markdown
 dateCreated: 2025-02-15T11:58:01.326Z
