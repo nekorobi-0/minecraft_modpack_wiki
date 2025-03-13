@@ -1,0 +1,51 @@
+---
+title: Github
+description: 
+published: true
+date: 2025-03-13T10:20:58.511Z
+tags: 
+editor: markdown
+dateCreated: 2025-03-13T10:20:58.511Z
+---
+
+# Githubとは?
+Githubとはソフトウェア開発プラットフォームであり、バージョン管理にGitを使っています。
+
+## Git/Github環境の整備
+
+#### 必須項目
+[Git](https://git-scm.com/downloads/win)をインストールする
+
+#### Optional
+VSCodeのExtention
+* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+> VScode内でGitのだいたいの操作ができます
+{.is-info}
+
+Windowsアプリケーション
+* [Github Desktop](https://desktop.github.com/download/)
+> そこそこわかりやすいGUIでGithubがいじれます
+{.is-info}
+
+## Git(Github)の基礎用語について
+
+[ここ](https://qiita.com/shinshingodmt/items/637cf9e5c6660509c460)がわりとよくまとまっています
+
+## Git(Github)の基本操作について
+
+あくまで一例です。ほかにもやり方はたくさんあります
+一応、できるだけGUI上で完結するようにまとめたつもりです。
+
+### Clone
+リモートリポジトリからコードベースをクローンするためにはわりといくつかの方法がありますが簡単な方法として、VSCodeからクローンする方法を紹介したいと思います
+
+まず、クローンしたいGithubリポジトリを開き、そののCodeボタンを押すと出てくるポップアップからHTTPSを選択し、コピーボタンを押すことで、リポジトリのURLをコピーできます
+![githubrepourl.png](/githubrepourl.png)
+そして、 `View`タブを開き、`Command Palette`をクリックし、`git clone`と入力し、enterを押します。
+そして、リポジトリのURLを入力して、リポジトリをどこに配置するかを選択することでGithubリポジトリがクローン出来ます。
+
+### Pull Requestの作成
+VSCodeの`Source Control`タブの`Create Pull Request`ボタンをクリックすることで作れます。
+![source_controll_pr.png](/source_controll_pr.png)
+
+### Branchの作成
