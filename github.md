@@ -2,7 +2,7 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:29:07.977Z
+date: 2025-03-13T10:30:35.166Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
@@ -39,6 +39,9 @@ VSCodeのExtention
 一応、できるだけGUI上で完結するようにまとめたつもりです。
 ### リポジトリの作成
 Githubをブラウザで開いて作るのが楽です。[ここ](https://github.com/new)にアクセスすることで作ることもできます。
+
+### VSCodeでGithubアカウントにログインする
+左下のAccountsをクリックしてなんかそれっぽいことをしたらログインできます(書きかけ)
 
 ### Clone
 リモートリポジトリからコードベースをクローンするためにはわりといくつかの方法がありますが簡単な方法として、VSCodeからクローンする方法を紹介したいと思います
