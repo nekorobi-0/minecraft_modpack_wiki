@@ -2,14 +2,14 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:26:14.648Z
+date: 2025-03-13T10:29:07.977Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
 ---
 
 # Githubとは?
-Githubとはソフトウェア開発プラットフォームであり、バージョン管理にGitを使っています。
+[Github](https://github.com)とはソフトウェア開発プラットフォームであり、バージョン管理にGitを使っています。
 あと、GitとGithubは別物です。Javaと紅茶ぐらい違う。
 
 ## Git(Github)環境の整備
@@ -37,6 +37,8 @@ VSCodeのExtention
 
 あくまで一例です。ほかにもやり方はたくさんあります
 一応、できるだけGUI上で完結するようにまとめたつもりです。
+### リポジトリの作成
+Githubをブラウザで開いて作るのが楽です。[ここ](https://github.com/new)にアクセスすることで作ることもできます。
 
 ### Clone
 リモートリポジトリからコードベースをクローンするためにはわりといくつかの方法がありますが簡単な方法として、VSCodeからクローンする方法を紹介したいと思います
