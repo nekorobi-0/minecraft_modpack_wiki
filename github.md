@@ -2,7 +2,7 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:23:50.217Z
+date: 2025-03-13T10:24:02.193Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
@@ -22,7 +22,7 @@ VSCodeのExtention
 > コードの編集履歴とかがいい感じに見れる
 {.is-info}
 
-Windowsアプリケーション
+デスクトップアプリケーション
 * [Github Desktop](https://desktop.github.com/download/)
 > そこそこわかりやすいGUIでGithubがいじれます
 {.is-info}
