@@ -2,7 +2,7 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:30:35.166Z
+date: 2025-03-13T10:40:04.130Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
@@ -11,6 +11,14 @@ dateCreated: 2025-03-13T10:20:58.511Z
 # Githubとは?
 [Github](https://github.com)とはソフトウェア開発プラットフォームであり、バージョン管理にGitを使っています。
 あと、GitとGithubは別物です。Javaと紅茶ぐらい違う。
+
+## Gitの利点
+Gitを使うことでコードの巻き戻しや、複数人での開発が簡単にできるようになります。コピーのコピー(最新版)とかが発生しなくて済むというわけですね。
+
+その他いろいろな特徴。
+* Github Actionsを利用することによりタスク実行の自動化
+* Webhookを利用することで、リポジトリに更新があったときにDiscordに通知する
+* あんまりModpackには関係がないですが、Github Pagesを使うことでウェブサイトのホスティングができます。
 
 ## Git(Github)環境の整備
 GitとVSCode入れてればだいたい戦えます。そのほかはお好みで
