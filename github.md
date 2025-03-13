@@ -2,7 +2,7 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:20:58.511Z
+date: 2025-03-13T10:23:50.217Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
@@ -19,7 +19,7 @@ Githubとはソフトウェア開発プラットフォームであり、バー�
 #### Optional
 VSCodeのExtention
 * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-> VScode内でGitのだいたいの操作ができます
+> コードの編集履歴とかがいい感じに見れる
 {.is-info}
 
 Windowsアプリケーション
