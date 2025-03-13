@@ -2,7 +2,7 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:24:53.733Z
+date: 2025-03-13T10:25:42.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
@@ -11,7 +11,7 @@ dateCreated: 2025-03-13T10:20:58.511Z
 # Githubとは?
 Githubとはソフトウェア開発プラットフォームであり、バージョン管理にGitを使っています。
 
-## Git/Github環境の整備
+## Git(Github)環境の整備
 GitとVSCode入れてればだいたい戦えます。そのほかはお好みで
 
 #### 必須項目
