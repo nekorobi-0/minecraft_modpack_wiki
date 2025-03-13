@@ -2,7 +2,7 @@
 title: Github
 description: 
 published: true
-date: 2025-03-13T10:26:08.356Z
+date: 2025-03-13T10:26:14.648Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-13T10:20:58.511Z
@@ -10,7 +10,7 @@ dateCreated: 2025-03-13T10:20:58.511Z
 
 # Githubとは?
 Githubとはソフトウェア開発プラットフォームであり、バージョン管理にGitを使っています。
-あと、GitとGithubは完全に別物です。Javaと紅茶ぐらい違う。
+あと、GitとGithubは別物です。Javaと紅茶ぐらい違う。
 
 ## Git(Github)環境の整備
 GitとVSCode入れてればだいたい戦えます。そのほかはお好みで
