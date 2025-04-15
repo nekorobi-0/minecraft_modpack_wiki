@@ -1,16 +1,14 @@
 ---
 title: レシピの改変
 description: レシピの追加、編集及び削除を行います
-published: false
-date: 2025-04-15T14:42:07.187Z
+published: true
+date: 2025-04-15T14:45:18.763Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-07T13:57:55.403Z
 ---
 
 <!-- ほとんどKubeJSWikiの引用になると思います-->
-> なうわーきんぐ
-{.is-info}
 
 > ここではJavaScriptについて深く解説しません
 {.is-warning}
