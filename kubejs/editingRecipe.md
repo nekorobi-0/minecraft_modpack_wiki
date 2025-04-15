@@ -2,7 +2,7 @@
 title: レシピの改変
 description: レシピの追加、編集及び削除を行います
 published: false
-date: 2025-02-28T12:14:48.533Z
+date: 2025-04-15T14:42:07.187Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-07T13:57:55.403Z
@@ -109,17 +109,17 @@ event.shaped(
 
 //ネザライトの剣をネザライトインゴットで囲うと不可壊になるレシピ
 event.shaped(
-  //kjsで用意されてる関数を使えば個数を引数で指定したり、
-  //入力、出力アイテムにNBTをつけることができる
+  //kjsで用意されてる関数を使えば個数を引数で指定することや、
+  //入力、出力アイテムにNBTをつけることができます。
   Item.of("netherite_sword").withNBT("{Unbreakable:1b}"),
   [
     "BBB",
     "BSB",
     "BBB"
   ], {
-    //Ingredient.of()を使えばタグでアイテムを指定できる
+    //Ingredient.of()を使えばタグでアイテムを指定できます。
     B: Ingredient.of("#c:netherite_ingots"),
-    //材料にNBTをつけるには.weakNBT()が必要
+    //材料にNBTをつけるには.weakNBT()が必要です。
     S: Item.of("netherite_sword").withNBT("{Damage:0}").weakNBT()
   }
 )
@@ -150,7 +150,7 @@ event.shapeless(
 - 焚火レシピを追加するには `event.campfireCooking()`
 
 経験値量の編集には`.xp(xp: Float)`関数を用いることでできます。
-調理時間の編集には`.cookingTime(ticks: Int)`関数を用います
+調理時間の編集には`.cookingTime(ticks: Int)`関数を用います。
 また、第三引数がXP、第四引数が調理時間となっているため、そこで設定しても良いでしょう。
 
 引数の説明
