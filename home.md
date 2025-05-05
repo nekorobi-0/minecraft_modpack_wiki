@@ -2,14 +2,15 @@
 title: Home
 description: 
 published: true
-date: 2025-02-08T03:23:48.766Z
+date: 2025-05-05T13:55:27.319Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-02T01:04:13.438Z
 ---
 
 # 概要
-このWikiは、Modpack作成に必要な知見の集積を目的として作られました。
+このWikiは、Modpack作成に必要な知見の集積を目的として作られましたが、Modded MInecraftに関する情報の集積が目的となりました。
+しらんけど
 
 
 ## Todo
