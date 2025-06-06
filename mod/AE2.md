@@ -2,7 +2,7 @@
 title: Applied Energistics 2
 description: 
 published: true
-date: 2025-06-06T13:12:30.464Z
+date: 2025-06-06T13:15:45.497Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-06T13:00:28.807Z
@@ -23,7 +23,8 @@ MEドライブにストレージセルというアイテムを入れることで
 中間素材が多い複雑なアイテムも、ワンクリックで作成可能です。
 #### 空間ストレージ
 特定の範囲のブロック群（建築物など）をデータとしてセルに保存し、別の場所に再設置したり、複製したりできます。
-
+#### 他modとの連携
+[Applied Mekanitics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)などのアドオンを導入することで、Mekanismのマナとかいろいろが収納でき、自動クラフトに組み込めます。
 
 ## 小ネタ一覧
 
