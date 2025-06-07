@@ -2,7 +2,7 @@
 title: mclogs
 description: mclogsのつかいかた
 published: true
-date: 2025-06-07T12:44:57.070Z
+date: 2025-06-07T14:50:09.981Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-07T12:44:57.070Z
@@ -16,6 +16,6 @@ dateCreated: 2025-06-07T12:44:57.070Z
 ### latest.logの場所
 `logs`フォルダの中に`latest.log`があります
 ### ログのアップロード
-それっぽいのを見つけたら、[mclo.gs](https://mclo.gs/)にアクセスし、そのファイルをアップロードしてください。
+それっぽいのを見つけたら、[mclo.gs](https://mclo.gs/)にアクセスし、そのファイルをアップロードしてください。ドラッグアンドドロップなり選択するなりすればできます。
 多分自動で画面遷移があって、syntax highlightされたログが見れるはずです。なかなか画面遷移しない場合は`Save`ボタンを押してください。
 これを他の人に共有するときは、そのページのURLをコピーすればOKです。
