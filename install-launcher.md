@@ -2,7 +2,7 @@
 title: 外部ランチャーの入れ方
 description: 
 published: true
-date: 2025-08-27T09:16:34.752Z
+date: 2025-08-27T09:17:21.290Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T09:16:34.752Z
@@ -20,7 +20,7 @@ Modをアップロードするプラットフォームとして有名なCursefor
 **Windows/Mac/Linux**
 https://www.curseforge.com/download/app#download-options
 
-その他apt/winget/pacman等でも入れれます。
+apt/winget/pacman等でも入れれます。
 
 ### Modpackのインストール
 Curseforge Appを開いて、Minecraftを選択します。
