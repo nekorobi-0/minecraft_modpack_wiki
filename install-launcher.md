@@ -2,7 +2,7 @@
 title: 外部ランチャーの入れ方
 description: 
 published: true
-date: 2025-08-27T09:19:11.236Z
+date: 2025-09-12T02:27:25.964Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T09:16:34.752Z
@@ -25,4 +25,5 @@ apt/winget/pacman等でも入れれます。
 ### Modpackのインストール
 Curseforge Appを開いて、Minecraftを選択します。
 次に、My Modpacksのタブの Importボタンをクリックし、ダウンロードしたModpack(`.zip`など)を選択したら、あとはなんとかなるはずです。
-メモリ割り当てはModpackを選択し、なんか縦向き三店リーダーみたいなやつをクリックし、Profile Optionsから設定できます。
+#### メモリ割り当ての変更
+Modpackを選択し、縦向き三店リーダーぽいのをクリックし、Profile Optionsから設定できます。
