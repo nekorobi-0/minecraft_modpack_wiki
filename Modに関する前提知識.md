@@ -2,7 +2,7 @@
 title: Modに関する前提知識
 description: Mod、Modpackに関する前提知識をまとめたものです。
 published: true
-date: 2025-09-12T02:31:58.774Z
+date: 2025-09-12T03:37:29.489Z
 tags: 始めに
 editor: markdown
 dateCreated: 2025-09-08T15:02:39.294Z
@@ -70,9 +70,14 @@ Modpackは外部ランチャーを用いてダウンロードします。
 Modやリソースパックにはライセンスがあるため、そのまま配布すると二次配布にあたり、ライセンス違反となる可能性があります。また、セキュリティ上のリスクも伴います。この問題を回避するため、ModpackはModなどをダウンロードURLなどに圧縮した形式で共有します。
 これらのファイル形式は、対応した外部ランチャーで読み込むと、必要なModが自動でダウンロードされる仕組みです。
 
-CurseForge形式: .zipファイル。CurseForge AppやPrism launcherで扱えます。
+CurseForge形式: `.zip`ファイル。CurseForge AppやPrism launcherで扱えます。ただし、CurseForge App以外のランチャーの場合、CFのAPI制限により直接ダウンロードできないModがあります。その場合、誘導があります。
 
-Modrinth形式: 独自の.mrpackファイル。mrpack形式とも呼ばれます。Modrinth AppやPrism launcherで扱えます。
+Modrinth形式: Modrinth独自の`.mrpack`ファイル。mrpack形式とも呼ばれます。Modrinth AppやPrism launcherで扱えます。
+
+### Modpackファイルの読み込み方
+外部ランチャーで読み込む方法は主に2つあります。
+1. 起動構成の作成(又はそれに準ずるもの)からファイルを指定して、インポートする方法。
+2. ファイルを外部ランチャーにドラッグアンドドロップでインポートする方法。
 
 # 外部ランチャーについて
 [詳細はここ](/ja/install-launcher)
