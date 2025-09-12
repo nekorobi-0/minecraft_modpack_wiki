@@ -2,7 +2,7 @@
 title: Modに関する前提知識
 description: Mod、Modpackに関する前提知識をまとめたものです。
 published: true
-date: 2025-09-12T02:31:26.982Z
+date: 2025-09-12T02:31:58.774Z
 tags: 始めに
 editor: markdown
 dateCreated: 2025-09-08T15:02:39.294Z
@@ -75,7 +75,7 @@ CurseForge形式: .zipファイル。CurseForge AppやPrism launcherで扱えま
 Modrinth形式: 独自の.mrpackファイル。mrpack形式とも呼ばれます。Modrinth AppやPrism launcherで扱えます。
 
 # 外部ランチャーについて
-[詳細はここ](ja/install-launcher)
+[詳細はここ](/ja/install-launcher)
 MinecraftのModに特化したツールです。
 Mojangの公式ランチャーとは異なり、Modの導入や管理を容易に行えるよう作られています。
 また、データパックやリソースパック、シェーダーについてもまとめて管理できるのが特徴です。
