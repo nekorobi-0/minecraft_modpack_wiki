@@ -1,8 +1,8 @@
 ---
-title: Modpackの概要
+title: Modpack
 description: 
 published: true
-date: 2025-09-20T15:59:03.385Z
+date: 2025-09-20T15:59:30.377Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-20T15:59:03.385Z
