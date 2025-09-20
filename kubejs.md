@@ -2,7 +2,7 @@
 title: Kubejs
 description: 現代の代表的なminecraft改変mod、kubejsについて学びます。
 published: true
-date: 2025-02-25T12:58:18.281Z
+date: 2025-09-20T15:29:57.197Z
 tags: kubejs
 editor: markdown
 dateCreated: 2025-02-02T02:56:30.735Z
@@ -27,7 +27,7 @@ Kubejsとは、サーバー/クライアントで動作するModであり、Java
 　　Forgeのイベントリスナーの追加 
 
 `server_scripts`
-「サーバーにのみ影響する」「[レシピを変更する](/ja/kubejs/editingRecipe)」「ブロックを破壊する」等がここに含まれます。
+「サーバーにのみ影響する」「[レシピを変更する](/ja/kubejs/editing-recipe)」「ブロックを破壊する」等がここに含まれます。
 例：アイテムのレシピの変更
 　　ドロップアイテムの変更
 　　ブロックなどを使用した時に発生するイベントの設定
