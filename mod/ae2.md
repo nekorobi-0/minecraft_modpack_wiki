@@ -2,7 +2,7 @@
 title: Applied Energistics 2
 description: 
 published: true
-date: 2025-06-06T15:02:08.396Z
+date: 2025-09-20T15:27:49.157Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-06T13:00:28.807Z
@@ -28,5 +28,5 @@ MEドライブにストレージセルというアイテムを入れることで
 
 ## 小ネタ一覧
 
-[Skystoneの無限化](/mod/AE2/infinity_skystone)
-[Subnetのつかいかた](/mod/AE2/Subnet)
+[Skystoneの無限化](/mod/ae2/infinity-skystone)
+[Subnetのつかいかた](/mod/ae2/subnet)
