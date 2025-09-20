@@ -1,8 +1,8 @@
 ---
-title: Modに関する前提知識
+title: 背景知識
 description: Mod、Modpackに関する前提知識をまとめたものです。
 published: true
-date: 2025-09-14T07:30:52.064Z
+date: 2025-09-20T15:24:33.422Z
 tags: 始めに
 editor: markdown
 dateCreated: 2025-09-08T15:02:39.294Z
