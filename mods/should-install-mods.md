@@ -2,7 +2,7 @@
 title: おすすめmod
 description: どのmodを入れるべきか解説。
 published: true
-date: 2025-02-10T21:13:52.239Z
+date: 2025-09-20T21:52:23.097Z
 tags: mods, 軽量化, qol
 editor: markdown
 dateCreated: 2025-02-07T20:53:29.515Z
@@ -54,7 +54,7 @@ modには様々なジャンルがあります、軽量化、QoL(Quality of Life)
 - [Radon](https://modrinth.com/mod/radon) (非推奨)(ver:Forge:1.16.5~1.19.4)
 - [Alfheim](https://modrinth.com/mod/alfheim-lighting-engine) (ver:Forge:1.12.2)
 - (fabric版)[Starlight](https://modrinth.com/mod/starlight)|(Forge版)[Starlight](https://modrinth.com/mod/starlight-forge)|(NeoForge版)[Starlight](https://modrinth.com/mod/starlight-neoforge) (ver:Fabric&(Neo)Forge:1.17~1.20.4)
-- [Moonrise](https://modrinth.com/mod/moonrise-opt) (ver:Fabric&(Neo)Forge:1.21.1~1.21.4)
+- [Moonrise](すこし非推奨)(https://modrinth.com/mod/moonrise-opt) (ver:Fabric&(Neo)Forge:1.21.1~1.21.4)
 ライトニングエンジンの軽量化
 ---
 - [Noisium](https://modrinth.com/mod/noisium) (ver:Fabric&(Neo)Forge:1.20~1.21.4)
@@ -71,6 +71,9 @@ modには様々なジャンルがあります、軽量化、QoL(Quality of Life)
 ---
 - [Palladium](https://modrinth.com/mod/mpalladium) (ver:Fabric:1.19.4~1.21.4,(Neo)Forge:1.20.1\~1.21.1)
 AIと描画の最適化
+---
+- [Graphene](https://modrinth.com/mod/graphene) (ver:Fabric:1.20.1~1.21.8 ,(Neo)Froge:1.12.2/1.19.2~1.21.8,Quilt:1.20.1)(MPEMの後継)
+非同期処理やイベント、描画最適化
 ---
 
 主な軽量化modに関してはこれぐらいです。
