@@ -2,7 +2,7 @@
 title: markdownのexample
 description: 
 published: true
-date: 2025-09-20T15:16:15.859Z
+date: 2025-09-20T15:17:39.640Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-20T15:16:15.859Z
@@ -96,22 +96,8 @@ def greet(name):
 
 ---
 
-## 4. 変換ツール
 
-| ツール | 主な機能 | 例 |
-|--------|----------|----|
-| **Pandoc** | PDF・Word・HTML など多彩なフォーマットへ変換 | `pandoc input.md -o output.pdf` |
-| **GitHub** | Markdown を HTML で表示 | `README.md` |
-| **Jekyll** | 静的サイト生成 | GitHub Pages で利用 |
-| **Typora** | WYSIWYG エディタ | 直感的に書く |
-| **Marked 2** | Mac 用プレビュー | リアルタイムプレビュー |
-
-> **Tip**  
-> GitHub で Markdown を閲覧するときは、`<br>` を使って改行したいときは空行を入れずに `  `（スペース2つ）を末尾に付けてください。
-
----
-
-## 5. よくある落とし穴
+## 4. よくある落とし穴
 
 1. **空行の扱い**  
    - 段落を分けるために 2 行以上の空行が必要です。  
@@ -130,7 +116,7 @@ def greet(name):
 
 ---
 
-## 6. まとめ
+## 5. まとめ
 
 | 目的 | 使いどころ | 例 |
 |------|------------|----|
