@@ -2,7 +2,7 @@
 title: Mekanism
 description: 現在の工業mod二大巨頭を成す、インフレ工業
 published: true
-date: 2025-08-30T07:35:24.875Z
+date: 2025-09-20T15:06:13.920Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-30T06:41:14.172Z
