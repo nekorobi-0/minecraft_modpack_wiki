@@ -2,14 +2,14 @@
 title: Modpack
 description: 
 published: true
-date: 2025-09-20T15:59:42.930Z
+date: 2025-09-20T16:00:00.325Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-20T15:59:03.385Z
 ---
 
 
-## Modpackとは?
+## Modpackについて
 
 ---
 
