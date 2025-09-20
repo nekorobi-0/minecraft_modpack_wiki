@@ -2,7 +2,7 @@
 title: おすすめmod
 description: どのmodを入れるべきか解説。
 published: true
-date: 2025-09-20T21:52:23.097Z
+date: 2025-09-20T21:53:21.075Z
 tags: mods, 軽量化, qol
 editor: markdown
 dateCreated: 2025-02-07T20:53:29.515Z
@@ -54,7 +54,7 @@ modには様々なジャンルがあります、軽量化、QoL(Quality of Life)
 - [Radon](https://modrinth.com/mod/radon) (非推奨)(ver:Forge:1.16.5~1.19.4)
 - [Alfheim](https://modrinth.com/mod/alfheim-lighting-engine) (ver:Forge:1.12.2)
 - (fabric版)[Starlight](https://modrinth.com/mod/starlight)|(Forge版)[Starlight](https://modrinth.com/mod/starlight-forge)|(NeoForge版)[Starlight](https://modrinth.com/mod/starlight-neoforge) (ver:Fabric&(Neo)Forge:1.17~1.20.4)
-- [Moonrise](すこし非推奨)(https://modrinth.com/mod/moonrise-opt) (ver:Fabric&(Neo)Forge:1.21.1~1.21.4)
+- [Moonrise](https://modrinth.com/mod/moonrise-opt) (すこし非推奨)(ver:Fabric&(Neo)Forge:1.21.1~1.21.4)
 ライトニングエンジンの軽量化
 ---
 - [Noisium](https://modrinth.com/mod/noisium) (ver:Fabric&(Neo)Forge:1.20~1.21.4)
