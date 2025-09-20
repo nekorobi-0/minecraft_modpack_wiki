@@ -2,7 +2,7 @@
 title: Wikiの編集者へ
 description: 
 published: false
-date: 2025-09-20T14:57:51.729Z
+date: 2025-09-20T15:01:30.223Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-08T02:52:31.926Z
@@ -39,7 +39,8 @@ Googleさんとにらめっこして、複数のサイトを往復して情報�
 > [Just Enogh Items](https://www.curseforge.com/minecraft/mc-mods/jei)
 {.is-success}
 
-
+### 適切なパスの設定
+日本語を絶対にパスに使用しないこと、また`kebab-case`にすること。
 ### 適切な階層分け
 ルートディレクトリに乱雑無章に記事が並べられていたらどうでしょうか、そこの中から目的の記事を探すやる気が失せますよね。
 カテゴリーごとに分け、さらにそこの中でも小カテゴリーを作ることを推奨します。選択肢は15以下、できれば10以下がおすすめです。
