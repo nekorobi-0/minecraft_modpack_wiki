@@ -2,7 +2,7 @@
 title: おすすめmod
 description: どのmodを入れるべきか解説。
 published: true
-date: 2025-09-20T21:53:21.075Z
+date: 2025-09-20T23:16:02.788Z
 tags: mods, 軽量化, qol
 editor: markdown
 dateCreated: 2025-02-07T20:53:29.515Z
@@ -134,5 +134,40 @@ Modpackを作るうえで、レシピ変更、クエスト要素の追加など�
 ### レシピ変更系
 - [Kubejs](https://www.curseforge.com/minecraft/mc-mods/kubejs) (ver:Fabric&(Neo)Forge:1.16.5~1.21.1)
 Javascriptでプログラムを書くことで[レシピ変更など](/kubejs)ができます。
+[KubejsWiki](https://kubejs.com/)
 - [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker) (ver:Fabric&(Neo)Forge:1.3.2~1.21.1)
 ZenScriptという独自の言語を書くことでレシピ改変などができます。
+[CraftTweakerWiki](https://docs.blamejared.com/)
+	- [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker) (ver:Forge:1.6.4~1.12.2)
+  CraftTweakerにMod互換性を追加するMod
+  - [ContentTweaker](https://www.curseforge.com/minecraft/mc-mods/contenttweaker) (ver:Forge:1.7.10~1.19.2)
+  CraftTweakerでアイテムやブロックなどを追加できるようにするMod
+  - [ZenUtils](https://www.curseforge.com/minecraft/mc-mods/zenutil) (ver:Forge:1.12.2)
+  リロードができない1.12.2で部分的にリロードができるようにするなどの機能
+  	- [ZenRecipeReload](https://legacy.curseforge.com/minecraft/mc-mods/zenrecipereload) (ver:forge1.12.2)
+    さらに多くリロードができるようにするmod
+- [GroovyScript](https://modrinth.com/mod/groovyscript) (ver:Froge:1.20.1)
+Groovyを用いてレシピを変更します。1.12.2ではこちらをお勧めします。
+[GroovyScriptWiki](https://cleanroommc.com/groovy-script/)
+- [Game Stages](https://www.curseforge.com/minecraft/mc-mods/game-stages) (ver:(Neo)Forge:1.11.2~1.20.3)
+進行を制御する基盤を追加するmod
+	- [Recipe Stages](https://www.curseforge.com/minecraft/mc-mods/recipe-stages) (ver:Forge:1.12~1.20.1)
+レシピを制御する
+		- [FastStages](https://www.curseforge.com/minecraft/mc-mods/faststages) (ver:Forge:1.12.2)
+    1.12.2の改良版
+	- [Item Stages](https://www.curseforge.com/minecraft/mc-mods/item-stages) (ver:Forge:1.12.2~1.20.3)
+  アイテムを制御する
+  - [Dimension Stages](https://www.curseforge.com/minecraft/mc-mods/dimension-stages) (ver:Forge:1.11.2~1.19.2)
+  ディメンション移動を制御
+  	- [Re-Dimension Stages](https://www.curseforge.com/minecraft/mc-mods/re-dimension-stages) (ver:Forge:1.20.1)
+    後継版
+  - [Ore Stages](https://www.curseforge.com/minecraft/mc-mods/ore-stages) (ver:Forge:1.12.2)
+  鉱石を制御する
+  	- [Ore Stages Reborn](https://www.curseforge.com/minecraft/mc-mods/ore-stages-reborn) (ver:Forge:1.16.5~1.20.1)
+    後継版
+  - [Loot Stages](https://www.curseforge.com/minecraft/mc-mods/loot-stages) (ver:Forge:1.18.2~1.20.1)
+  ルートテーブルを制御する
+  - [Mob Stages](https://www.curseforge.com/minecraft/mc-mods/mob-stages) (ver:Forge:1.12~1.12.2)
+  Modを制御する
+  - [ZenStages](https://www.curseforge.com/minecraft/mc-mods/zenstages) (ver:Forge:1.12~1.12.2)
+  CraftTweakerとの連携をよりやりやすくする
