@@ -2,7 +2,7 @@
 title: おすすめmod
 description: どのmodを入れるべきか解説。
 published: true
-date: 2025-09-20T23:16:02.788Z
+date: 2025-09-20T23:20:53.446Z
 tags: mods, 軽量化, qol
 editor: markdown
 dateCreated: 2025-02-07T20:53:29.515Z
@@ -171,3 +171,5 @@ Groovyを用いてレシピを変更します。1.12.2ではこちらをお勧�
   Modを制御する
   - [ZenStages](https://www.curseforge.com/minecraft/mc-mods/zenstages) (ver:Forge:1.12~1.12.2)
   CraftTweakerとの連携をよりやりやすくする
+- [AStages](https://www.curseforge.com/minecraft/mc-mods/astages) (ver:1.20.1~1.21.1)
+Kubejsを用いてレシピ/アイテム/ディメンションetc...の進行制御を行う
