@@ -2,7 +2,7 @@
 title: Applied Energistics 2
 description: 
 published: true
-date: 2025-09-20T15:27:49.157Z
+date: 2025-09-21T00:41:31.166Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-06T13:00:28.807Z
