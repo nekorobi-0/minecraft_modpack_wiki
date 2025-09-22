@@ -2,7 +2,7 @@
 title: おすすめmod
 description: どのmodを入れるべきか解説。
 published: true
-date: 2025-09-20T23:20:53.446Z
+date: 2025-09-22T07:17:34.397Z
 tags: mods, 軽量化, qol
 editor: markdown
 dateCreated: 2025-02-07T20:53:29.515Z
@@ -171,5 +171,22 @@ Groovyを用いてレシピを変更します。1.12.2ではこちらをお勧�
   Modを制御する
   - [ZenStages](https://www.curseforge.com/minecraft/mc-mods/zenstages) (ver:Forge:1.12~1.12.2)
   CraftTweakerとの連携をよりやりやすくする
-- [AStages](https://www.curseforge.com/minecraft/mc-mods/astages) (ver:1.20.1~1.21.1)
+- [AStages](https://www.curseforge.com/minecraft/mc-mods/astages) (ver:(Neo)Forge:1.20.1~1.21.1)
 Kubejsを用いてレシピ/アイテム/ディメンションetc...の進行制御を行う
+
+### オリジナル機械系
+- [Custom Machinery](https://www.curseforge.com/minecraft/mc-mods/custom-machinery) (ver:(Neo)Forge:1.16.4~1.21.1)
+自由に一ブロック機械を作れる
+ほかのmodとの互換用のmodもいくつかある
+	- [Custom Machinery (Fork)](https://www.curseforge.com/minecraft/mc-mods/custommachinery-fork) (ver:Forge:1.20.1)
+  1.20.1版
+- [Multiblocked](https://www.curseforge.com/minecraft/mc-mods/multiblocked) (ver:Forge:1.12.2~1.18.2)
+自由に、機械（一ブロックからマルチブロックまで）が作れるmod
+- [Multiblocked2](https://www.curseforge.com/minecraft/mc-mods/multiblocked2) (ver:Forge:1.20.1)
+Multiblockedの後継、内容とUIが進化した
+- [Modular Machinery](https://www.curseforge.com/minecraft/mc-mods/modular-machinery) (ver:Forge:1.12~1.12.2)
+簡単にマルチブロックを作れる
+	- [Modular Machinery: Community Edition](https://www.curseforge.com/minecraft/mc-mods/modularmachinery-community-edition) (vver:Forge:1.12.2)
+  1.12.2の後継版
+  - [Modular Machinery Reborn](https://www.curseforge.com/minecraft/mc-mods/modular-machinery-reborn) (ver:NeoForge:1.21~1.21.1)
+  後継版
