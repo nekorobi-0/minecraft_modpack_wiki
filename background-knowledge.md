@@ -2,7 +2,7 @@
 title: 前提知識
 description: Mod、Modpackに関する前提知識をまとめたものです。
 published: true
-date: 2025-09-20T15:26:12.264Z
+date: 2025-12-24T14:19:17.052Z
 tags: 始めに
 editor: markdown
 dateCreated: 2025-09-08T15:02:39.294Z
@@ -21,11 +21,11 @@ Modとは所謂"改造ソフトウェア"です。ゲームに本来存在しな
 Modpackとは平たく言うとModの詰め合わせです。
 ただModを入れたものではなく、レシピ改変やconfig改変を行っています。
 
+ここではmod/modpackのダウンロード方法と構成管理に便利な外部ランチャー、Modローダーについて簡単に解説します。
 # Mod、Modpackのダウンロードについて
-**Modは信用のできるサイトからダウンロードすることを強く推奨します。
-掲示板や偽造サイト(CurseFire等)からのダウンロードは大いに危険です。**
-　
-　
+**注意：
+Modは信用のできるサイトからダウンロードすることを強く推奨します。掲示板や偽造サイト(CurseFire等)からのダウンロードは大いに危険です。**
+
 **もしもマルウェアに感染したとしても自己責任です。**
 **くれぐれも注意してください。**
 
@@ -50,7 +50,7 @@ Minecraft以外のゲームも取り扱っています。親会社はOverwolf。
 こちらはプログラマ用のSNSのようなものです。
 配布サイトではありませんが、多くのModderはここにコードを公開しています。まれにここからしかダウンロードできないものもあります。
 
-### 公式サイト
+### その他：公式サイト等
 Modによっては公式サイトを用意してダウンロードする場所にしているものもあります。(Optifineなど)
 
 ## Modのダウンロード方法
@@ -124,8 +124,8 @@ CFのModを扱うことができないため注意。
 # Modローダーについて
 ModローダーとはModを動作させるための基盤となるソフトウェアです。
 Modは特定のModローダー向けに開発されており、異なるModローダーでは基本的に動作しません。
-
-## Forge
+## 主要なModローダー
+### Forge
 リンク：https://files.minecraftforge.net/net/minecraftforge/forge/
 推奨バージョン: 1.1〜1.20.1
 
@@ -133,7 +133,7 @@ Modは特定のModローダー向けに開発されており、異なるModロ�
 
 対応Modの例: 「黄昏の森」や「BuildCraft」など。
 
-## NeoForge
+### NeoForge
 リンク：https://neoforged.net/
 推奨バージョン: 1.20.4〜
 
@@ -141,7 +141,7 @@ Modは特定のModローダー向けに開発されており、異なるModロ�
 Forgeとの互換性はない。(1.20.1のみ互換性アリ、1.20.1はサポートしておらず非推奨)
 
 
-## Fabric
+### Fabric
 リンク：https://fabricmc.net/
 推奨バージョン: 1.13〜
 
@@ -150,14 +150,14 @@ Forgeとの互換性はない。(1.20.1のみ互換性アリ、1.20.1はサポ�
 対応Modの例: Litematica、Tweakeroo、MiniHUDなど。
 
 
-## Quilt
+### Quilt
 リンク：https://quiltmc.org
 推奨バージョン: 1.14〜
 
 特徴: Fabricから分岐したModローダー。不要な機能を無効化する機能により、Fabricよりも軽量化を行っている。しかし、開発速度が比較的遅いため、modに使われることは少ない。FabricのModのほとんどを読み込るが、開発速度が原因で新しいバージョンのModは扱えないものが多い。
 
 ### ローダー間の互換性について補足
-*Forge/NeoForgeとFabricのModには基本的に互換性はないです。しかし、Sinytra ConnectorやKiltといった互換性を確保するためのパッチModが存在します。*
+*Forge/NeoForgeとFabricのModには基本的に互換性はないです。しかし、Sinytra ConnectorやKiltといった互換性を確保するためのパッチModが存在します。ただし、相性が悪いものはうまく動きません。*
 
 # その他
 
@@ -193,7 +193,8 @@ MinecraftはJavaで動作します。
 
 Java 8: Minecraft 1.16.5以下
 Java 17: Minecraft 1.20.4以下
-Java 21: Minecraft 1.20.5以降
+Java 21: Minecraft 1.21.1以下
+Java 25: Minecraft 26.1以降
 
 例外: Cleanroomやlwjgl3fyなどの特定の環境では、推奨されるJavaバージョンが異なることがあります。
 
@@ -215,3 +216,9 @@ Modの対応状況は、CurseForgeやModrinthの配布ページで確認でき�
 - クライアント専用Mod: シェーダーやテクスチャ系Modなどのグラフィックを改善するmod。ソート機能などの操作を改善するMod。
 - サーバー専用Mod: ゲーム内のルールや管理機能を変更するMod。アイテム追加しない地形生成系などのデータパックから来るMod。
 - 両方必要なMod: アイテムやmobなどを追加するMod。レシピ表示modなどの便利系。
+
+## Configについて
+Modには専用の設定ファイルとしてconfigが存在します。configファイルを書き換えることでmodの要素を改変することができます。
+ただし、改変できる要素はmod製作者が用意している設定項目のみです。
+
+`.minecraft/config`に設定ファイルがあります。詳細については[Configについて](/mods/about-config)を確認してください。
